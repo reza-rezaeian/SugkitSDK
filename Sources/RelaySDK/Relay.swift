@@ -1,6 +1,6 @@
 import Foundation
 
-/// Entry point of RelaySDK.
+/// Entry point of Sugkit SDK.
 ///
 /// ```swift
 /// import RelaySDK

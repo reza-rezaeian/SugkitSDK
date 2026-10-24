@@ -135,7 +135,7 @@ public final class RelayClient: Sendable {
         var headers: [String: String] = [
             "X-Project-Key": configuration.projectKey,
             "Accept": "application/json",
-            "User-Agent": "RelaySDK/\(RelaySDKInfo.version) (swift)"
+            "User-Agent": "SugkitSDK/\(RelaySDKInfo.version) (swift)"
         ]
         var data: Data?
         if let body {

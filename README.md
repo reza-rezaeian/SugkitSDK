@@ -1,4 +1,4 @@
-# RelaySDK
+# Sugkit SDK
 
 A dependency-free Swift Package for collecting in-app feedback with the **Relay** service.
 iOS 17+, Swift Concurrency, Keychain-backed storage, ready-made SwiftUI screens in English and Persian (RTL/LTR).
@@ -31,7 +31,7 @@ Auth:      X-Project-Key: pk_live_...   (publishable key only)
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/Reza-rezzz/RelaySDK.git", from: "1.0.0")
+    .package(url: "https://github.com/reza-rezaeian/SugkitSDK.git", from: "1.0.0")
 ],
 targets: [
     .target(name: "MyApp", dependencies: ["RelaySDK"])

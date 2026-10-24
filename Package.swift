@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "RelaySDK",
+    name: "SugkitSDK",
     defaultLocalization: "en",
     platforms: [
         .iOS(.v17),

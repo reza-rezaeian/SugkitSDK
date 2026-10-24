@@ -1,6 +1,6 @@
 import Foundation
 
-/// Typed errors thrown by RelaySDK.
+/// Typed errors thrown by Sugkit SDK.
 public enum RelayError: Error, LocalizedError, Sendable, Equatable {
     /// `Relay.configure` has not been called.
     case notConfigured
