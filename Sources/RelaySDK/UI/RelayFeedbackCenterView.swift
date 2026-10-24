@@ -35,7 +35,9 @@ public struct RelayFeedbackCenterView: View {
                 .background(.bar)
 
                 tabContent
+                    .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
             }
+            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) {
                     Button(strings.text(.close)) { dismiss() }
